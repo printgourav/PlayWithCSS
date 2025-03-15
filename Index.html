@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<head>
+<meta charset = "UTF-8">
+<meta id="viewport" content="width=device-width, initial-scale=1.0">
+<title>Play with CSS</title>
+<link rel="stylesheet" href="Index.css">
+</head>
+<body>
+    <h1> A Css Variable Controller made from JS DOM</h1>    
+    <p div class="centertext">Experimental! More than Three Slider were causing strange behavior</p>
+    <div class="controls">
+            <label for="blur-slider">Blur</label>
+            <input type="range" id="blur-slider" min="0" max="10" value="0" data-sizing = "px">
+
+           <label for="bright-slider">Brightness</label>
+           <input type="range" id="bright-slider" min="50" max="150" value="100" data-sizing="%">
+
+            <label for="grayscale-slider">GrayScale</label>
+            <input type="range" id="grayscale-slider" min="0" max="100" value="0" data-sizing="%">
+        </div>  
+    <img src = "C:\Users\USER\Desktop\Camera\IMG_20240407_190721.jpg" class="center">
+        <script src = "Index.js"></script>
+</body>
+</html>
